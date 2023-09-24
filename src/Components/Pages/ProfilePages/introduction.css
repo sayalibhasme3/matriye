@@ -1,0 +1,31 @@
+.Introcontainer{    
+    background-image: radial-gradient(#7420d1,#381e8f);
+    width: calc(85vw - 6rem);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+.Introcontainer>div>img{
+    width: 6vw;
+    border-radius: 50%;
+    margin: 0 3rem;
+}
+
+.first > div{
+    padding: 0.2rem 0;
+    margin-left:2rem;
+    margin-right: 7rem;
+}
+
+.second>div{
+    padding: 0.2rem 0;
+    margin-left:7rem;
+    margin-right: 5rem;
+}
+.second>div>span{
+    margin:0 5vw;
+}
+.label{
+    
+}

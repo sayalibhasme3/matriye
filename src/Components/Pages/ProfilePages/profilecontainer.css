@@ -1,0 +1,22 @@
+.Profilecontainer{
+    display: flex;
+    width: calc(85vw - 6rem);
+    flex-direction: row;
+    margin : 2rem 2rem 0rem 2rem;
+    justify-content: center;
+
+}
+
+
+.profilenames{
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 3rem;
+    }
+
+
+    .profilenames:hover{
+        text-decoration: underline;
+     }
