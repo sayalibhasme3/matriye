@@ -1,5 +1,6 @@
 import "./HOC.css"
 import drawpen from "../../../Images/drawpen.PNG"
+import { profiledata } from "../../../Utils/Data"
 
 const HOC=(OriginalComponent)=>{
 
@@ -7,7 +8,7 @@ const HOC=(OriginalComponent)=>{
     return (
         <div className="HOC">
             <img src={drawpen} alt="drawpen"/>
-            <OriginalComponent/>
+            <OriginalComponent in={profiledata.Candidate1[0]}/>
         </div>
     )
    }

@@ -26,6 +26,14 @@
 .second>div>span{
     margin:0 5vw;
 }
-.label{
-    
-}
+
+
+.second>div>label{
+    display: inline-block;
+    width: 10%;
+    position: relative;  
+  }
+  .second>div>span{
+    margin-left: 4rem;
+
+  }

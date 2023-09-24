@@ -1,5 +1,9 @@
 .title{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly
+
+    padding: 0.3rem 0;
+}
+.title>span{
+    padding-right: 2rem;
 }

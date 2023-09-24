@@ -10,6 +10,7 @@ const Emecontact=()=>{
                 <p>Name</p>
                 <p>Relationship</p>
                 <p>Phone</p>
+                <div style={{width:"90%", height:"0.01rem",backgroundColor:"#ffffff", margin:"1rem 0"}}></div>
                 <h4>Secondary</h4>
                 <p>Name</p>
                 <p>Relationship</p>

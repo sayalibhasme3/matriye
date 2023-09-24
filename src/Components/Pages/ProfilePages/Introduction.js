@@ -14,7 +14,7 @@ const Introduction = ({ Introduction }) => {
                 <div>{Introduction.designation}</div>
                 <div><label>Student ID : </label>{Introduction.studentID}</div>
                 <div><label>Date Of Joining : </label>{Introduction.DOJ}</div>
-                <div><button style={{color:"White", backgroundColor:"#070a2b", padding:"0.6rem", border:"none", borderRadius:"10%"}}>Send Message</button></div>
+                <div><button style={{color:"White", backgroundColor:"#070a2b", padding:"0.6rem", border:"none", borderRadius:"10%", cursor:"pointer"}}>Send Message</button></div>
             </div>
             <div style={{width:"0.1rem", height:"9rem",backgroundColor:"#ffffff"}}></div>
             <div className='second'> 
@@ -23,7 +23,7 @@ const Introduction = ({ Introduction }) => {
                 <div><label>Birthday</label><span>:</span>{Introduction.Birthday}</div>
                 <div><label>Adress</label><span>:</span>{Introduction.Adress}</div>
                 <div><label>Gender</label><span>:</span>{Introduction.Gender}</div>
-                <div><label>Reports to</label><span>:</span>{Introduction.ReportsTo}</div>
+                <div><label>ReportsTo</label><span>:</span>{Introduction.ReportsTo}</div>
             </div>
             <div><img style={{width:"2.5rem"}} src={drawpen} alt='drawpen'/></div>
         </div>
@@ -31,7 +31,3 @@ const Introduction = ({ Introduction }) => {
 }
 
 export default Introduction;
-
-// {
-//     profiledetails.map((val)=>(val.name))
-//  }

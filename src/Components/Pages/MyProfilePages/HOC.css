@@ -7,7 +7,8 @@
     overflow: hidden;
     cursor:pointer;
     width:37vw;
-    height:300px;
+    height:auto;
+    padding-bottom: 4rem;
     z-index:0;
    /* border: 2px solid red;*/
     background-image: linear-gradient(#2b2299, #2e24aa);
@@ -19,5 +20,5 @@
 }
 
 .heading{
-    padding-bottom: 2rem;
+    padding-bottom: 1.3rem;
 }
