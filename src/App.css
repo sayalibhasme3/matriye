@@ -2,11 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  z-index: 1;
+  overflow-x: hidden;
 }
 
 .homecontainer {
   width: 100vw;
   display: flex;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homecontainer{
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .homecontainer{
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .homecontainer{
+    font-size: 40%;
+  }
 }

@@ -25,7 +25,7 @@ const Introduction = ({ Introduction }) => {
                 <div><label>Gender</label><span>:</span>{Introduction.Gender}</div>
                 <div><label>ReportsTo</label><span>:</span>{Introduction.ReportsTo}</div>
             </div>
-            <div><img style={{width:"2.5rem"}} src={drawpen} alt='drawpen'/></div>
+            <div><img style={{width:"2.5rem",marginLeft:"1rem"}} src={drawpen} alt='drawpen'/></div>
         </div>
     );
 }
