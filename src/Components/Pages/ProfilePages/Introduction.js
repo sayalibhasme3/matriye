@@ -1,5 +1,6 @@
 import React from 'react';
 import "./introduction.css"
+
 import girl_img from "../../../Images/girl_img.PNG"
 import drawpen from "../../../Images/drawpen.PNG"
 
@@ -18,14 +19,14 @@ const Introduction = ({ Introduction }) => {
             </div>
             <div style={{width:"0.1rem", height:"9rem",backgroundColor:"#ffffff"}}></div>
             <div className='second'> 
-                <div><label>Phone</label><span className='label'>:</span>{Introduction.phone}</div>
-                <div><label>Email</label><span>:</span>{Introduction.Email}</div>
-                <div><label>Birthday</label><span>:</span>{Introduction.Birthday}</div>
-                <div><label>Adress</label><span>:</span>{Introduction.Adress}</div>
-                <div><label>Gender</label><span>:</span>{Introduction.Gender}</div>
-                <div><label>ReportsTo</label><span>:</span>{Introduction.ReportsTo}</div>
+                <div><label>Phone</label><span>{Introduction.phone}</span></div>
+                <div><label>Email</label><span>{Introduction.Email}</span></div>
+                <div><label>Birthday</label><span>{Introduction.Birthday}</span></div>
+                <div><label>Adress</label><span>{Introduction.Adress}</span></div>
+                <div><label>Gender</label><span>{Introduction.Gender}</span></div>
+                <div><label>ReportsTo</label><span>{Introduction.ReportsTo}</span></div>
             </div>
-            <div><img style={{width:"2.5rem",marginLeft:"1rem"}} src={drawpen} alt='drawpen'/></div>
+            <div><img style={{width:"2.5rem",marginLeft:"18rem"}} src={drawpen} alt='drawpen'/></div>
         </div>
     );
 }

@@ -19,29 +19,30 @@
 }
 
 .second>div{
-    padding: 0.2rem 0;
+    padding: 0.2rem 0.5rem;
     margin-left:7rem;
     margin-right: 5rem;
-}
-.second>div>span{
-    margin:0 5vw;
-}
 
-
+}
 .second>div>label{
     display: inline-block;
-    width: 10%;
-    position: relative;  
+    width: 40%;
+    position: relative;   
   }
-  .second>div>span{
-    margin-left: 4rem;
-
-  }
-
-  @media only screen and (max-width: 1024px) {
-    .first > div{
-        padding: 0.1rem 0;
-        margin-left:1rem;
-        margin-right: 7rem;
+  .second>div>label::after {
+      content: ":";
+      position: absolute;
+      right: 10px;
     }
-  }
+  
+    .second>div>span{
+       margin-left: 4rem;
+    }
+    @media only screen and (max-width: 1024px) {
+        .first > div{
+            padding: 0.1rem 0;
+            margin-left:1rem;
+            margin-right: 7rem;
+        }
+      }
+    
